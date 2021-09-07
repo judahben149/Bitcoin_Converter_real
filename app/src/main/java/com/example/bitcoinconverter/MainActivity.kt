@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun calcBtc () {
-        val naira = binding.etAmount.toString().toDoubleOrNull()
+        val naira = binding.etAmount.text.toString().toDoubleOrNull()
 
         if (naira == null || naira == 0.0){
             dispBtc(0.0)
@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun dispBtc (btc: Double) {
-        binding.etBtc.text = getString(R.string.btc_equiv, btc)
+        val btcValue = "$btc"
+        binding.etBtc.text = getString(R.string.btc_equiv, btcValue)
     }
 }

@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Bitcoin Converter</string>
-    <string name="btc_equiv">Btc equivalent: %d</string>
+    <string name="btc_equiv">Btc equivalent: %s</string>
 </resources>

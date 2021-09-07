@@ -52,8 +52,9 @@
         tools:ignore="Autofill" />
 
     <Switch
+
         android:id="@+id/sw_roundup"
-        android:theme="@style/Widget.MaterialComponents.NavigationRailView.Colored"
+        android:theme="@style/Platform.MaterialComponents"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:minHeight="48dp"
